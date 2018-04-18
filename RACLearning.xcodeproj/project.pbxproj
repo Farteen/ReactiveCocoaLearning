@@ -1,0 +1,789 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F36A3D74D62C9C8FA82DF1C /* Pods_RACLearningUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 718212BDD986B90DDBF2E1AC /* Pods_RACLearningUITests.framework */; };
+		4B2C2252FA85C8A115044938 /* Pods_RACLearning.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14F44CA77BB7D6A51E7F820C /* Pods_RACLearning.framework */; };
+		C3328F8C20879A290007B6C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3328F8B20879A290007B6C9 /* AppDelegate.swift */; };
+		C3328F8E20879A290007B6C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3328F8D20879A290007B6C9 /* ViewController.swift */; };
+		C3328F9120879A290007B6C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3328F8F20879A290007B6C9 /* Main.storyboard */; };
+		C3328F9420879A290007B6C9 /* RACLearning.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C3328F9220879A290007B6C9 /* RACLearning.xcdatamodeld */; };
+		C3328F9620879A290007B6C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3328F9520879A290007B6C9 /* Assets.xcassets */; };
+		C3328F9920879A290007B6C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3328F9720879A290007B6C9 /* LaunchScreen.storyboard */; };
+		C3328FA420879A290007B6C9 /* RACLearningTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3328FA320879A290007B6C9 /* RACLearningTests.swift */; };
+		C3328FAF20879A290007B6C9 /* RACLearningUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3328FAE20879A290007B6C9 /* RACLearningUITests.swift */; };
+		D01690FE967191DEC2DA0BDE /* Pods_RACLearningTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE551F0A946AF79015C1CF60 /* Pods_RACLearningTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C3328FA020879A290007B6C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3328F8020879A280007B6C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3328F8720879A290007B6C9;
+			remoteInfo = RACLearning;
+		};
+		C3328FAB20879A290007B6C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3328F8020879A280007B6C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3328F8720879A290007B6C9;
+			remoteInfo = RACLearning;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0368E6FB6A552FF8C603847A /* Pods-RACLearningUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RACLearningUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RACLearningUITests/Pods-RACLearningUITests.release.xcconfig"; sourceTree = "<group>"; };
+		13752D6CF21F3B4C1A907EBE /* Pods-RACLearning.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RACLearning.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RACLearning/Pods-RACLearning.debug.xcconfig"; sourceTree = "<group>"; };
+		14F44CA77BB7D6A51E7F820C /* Pods_RACLearning.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RACLearning.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		347030D97D1CC8F5BBEE5955 /* Pods-RACLearningUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RACLearningUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RACLearningUITests/Pods-RACLearningUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		718212BDD986B90DDBF2E1AC /* Pods_RACLearningUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RACLearningUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2C4F72DA0021685CA3C81CB /* Pods-RACLearningTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RACLearningTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RACLearningTests/Pods-RACLearningTests.release.xcconfig"; sourceTree = "<group>"; };
+		C3328F8820879A290007B6C9 /* RACLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RACLearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3328F8B20879A290007B6C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C3328F8D20879A290007B6C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C3328F9020879A290007B6C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C3328F9320879A290007B6C9 /* RACLearning.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RACLearning.xcdatamodel; sourceTree = "<group>"; };
+		C3328F9520879A290007B6C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C3328F9820879A290007B6C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C3328F9A20879A290007B6C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3328F9F20879A290007B6C9 /* RACLearningTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RACLearningTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3328FA320879A290007B6C9 /* RACLearningTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RACLearningTests.swift; sourceTree = "<group>"; };
+		C3328FA520879A290007B6C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3328FAA20879A290007B6C9 /* RACLearningUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RACLearningUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3328FAE20879A290007B6C9 /* RACLearningUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RACLearningUITests.swift; sourceTree = "<group>"; };
+		C3328FB020879A290007B6C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDC07EB0F24A6D5874BB305E /* Pods-RACLearningTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RACLearningTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RACLearningTests/Pods-RACLearningTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CE551F0A946AF79015C1CF60 /* Pods_RACLearningTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RACLearningTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFD4E1AC4585D897914F3BB4 /* Pods-RACLearning.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RACLearning.release.xcconfig"; path = "Pods/Target Support Files/Pods-RACLearning/Pods-RACLearning.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C3328F8520879A290007B6C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B2C2252FA85C8A115044938 /* Pods_RACLearning.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3328F9C20879A290007B6C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D01690FE967191DEC2DA0BDE /* Pods_RACLearningTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3328FA720879A290007B6C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F36A3D74D62C9C8FA82DF1C /* Pods_RACLearningUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9FDCC94EB5C4C907AB2CEAEB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				14F44CA77BB7D6A51E7F820C /* Pods_RACLearning.framework */,
+				CE551F0A946AF79015C1CF60 /* Pods_RACLearningTests.framework */,
+				718212BDD986B90DDBF2E1AC /* Pods_RACLearningUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A203BAE2DBB5317CCCF264B6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				13752D6CF21F3B4C1A907EBE /* Pods-RACLearning.debug.xcconfig */,
+				EFD4E1AC4585D897914F3BB4 /* Pods-RACLearning.release.xcconfig */,
+				CDC07EB0F24A6D5874BB305E /* Pods-RACLearningTests.debug.xcconfig */,
+				B2C4F72DA0021685CA3C81CB /* Pods-RACLearningTests.release.xcconfig */,
+				347030D97D1CC8F5BBEE5955 /* Pods-RACLearningUITests.debug.xcconfig */,
+				0368E6FB6A552FF8C603847A /* Pods-RACLearningUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C3328F7F20879A280007B6C9 = {
+			isa = PBXGroup;
+			children = (
+				C3328F8A20879A290007B6C9 /* RACLearning */,
+				C3328FA220879A290007B6C9 /* RACLearningTests */,
+				C3328FAD20879A290007B6C9 /* RACLearningUITests */,
+				C3328F8920879A290007B6C9 /* Products */,
+				A203BAE2DBB5317CCCF264B6 /* Pods */,
+				9FDCC94EB5C4C907AB2CEAEB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C3328F8920879A290007B6C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3328F8820879A290007B6C9 /* RACLearning.app */,
+				C3328F9F20879A290007B6C9 /* RACLearningTests.xctest */,
+				C3328FAA20879A290007B6C9 /* RACLearningUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C3328F8A20879A290007B6C9 /* RACLearning */ = {
+			isa = PBXGroup;
+			children = (
+				C3328F8B20879A290007B6C9 /* AppDelegate.swift */,
+				C3328F8D20879A290007B6C9 /* ViewController.swift */,
+				C3328F8F20879A290007B6C9 /* Main.storyboard */,
+				C3328F9520879A290007B6C9 /* Assets.xcassets */,
+				C3328F9720879A290007B6C9 /* LaunchScreen.storyboard */,
+				C3328F9A20879A290007B6C9 /* Info.plist */,
+				C3328F9220879A290007B6C9 /* RACLearning.xcdatamodeld */,
+			);
+			path = RACLearning;
+			sourceTree = "<group>";
+		};
+		C3328FA220879A290007B6C9 /* RACLearningTests */ = {
+			isa = PBXGroup;
+			children = (
+				C3328FA320879A290007B6C9 /* RACLearningTests.swift */,
+				C3328FA520879A290007B6C9 /* Info.plist */,
+			);
+			path = RACLearningTests;
+			sourceTree = "<group>";
+		};
+		C3328FAD20879A290007B6C9 /* RACLearningUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C3328FAE20879A290007B6C9 /* RACLearningUITests.swift */,
+				C3328FB020879A290007B6C9 /* Info.plist */,
+			);
+			path = RACLearningUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C3328F8720879A290007B6C9 /* RACLearning */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3328FB320879A290007B6C9 /* Build configuration list for PBXNativeTarget "RACLearning" */;
+			buildPhases = (
+				3F0F3D0F4B82A279D28704E2 /* [CP] Check Pods Manifest.lock */,
+				C3328F8420879A290007B6C9 /* Sources */,
+				C3328F8520879A290007B6C9 /* Frameworks */,
+				C3328F8620879A290007B6C9 /* Resources */,
+				4D4243B0D09BC38A02C79A6A /* [CP] Embed Pods Frameworks */,
+				E176809EEAA7A146691C8AAC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RACLearning;
+			productName = RACLearning;
+			productReference = C3328F8820879A290007B6C9 /* RACLearning.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C3328F9E20879A290007B6C9 /* RACLearningTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3328FB620879A290007B6C9 /* Build configuration list for PBXNativeTarget "RACLearningTests" */;
+			buildPhases = (
+				B442AE9FE27780C2311D2F83 /* [CP] Check Pods Manifest.lock */,
+				C3328F9B20879A290007B6C9 /* Sources */,
+				C3328F9C20879A290007B6C9 /* Frameworks */,
+				C3328F9D20879A290007B6C9 /* Resources */,
+				7A22FA6518FFDD170966DCF9 /* [CP] Embed Pods Frameworks */,
+				922494900FA7AE9C82DAD455 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3328FA120879A290007B6C9 /* PBXTargetDependency */,
+			);
+			name = RACLearningTests;
+			productName = RACLearningTests;
+			productReference = C3328F9F20879A290007B6C9 /* RACLearningTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C3328FA920879A290007B6C9 /* RACLearningUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3328FB920879A290007B6C9 /* Build configuration list for PBXNativeTarget "RACLearningUITests" */;
+			buildPhases = (
+				50FD3501F577554A5BB12C7D /* [CP] Check Pods Manifest.lock */,
+				C3328FA620879A290007B6C9 /* Sources */,
+				C3328FA720879A290007B6C9 /* Frameworks */,
+				C3328FA820879A290007B6C9 /* Resources */,
+				5F6D3117C61F261195BA345C /* [CP] Embed Pods Frameworks */,
+				8FF676626164B0A57BED4316 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3328FAC20879A290007B6C9 /* PBXTargetDependency */,
+			);
+			name = RACLearningUITests;
+			productName = RACLearningUITests;
+			productReference = C3328FAA20879A290007B6C9 /* RACLearningUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C3328F8020879A280007B6C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Glassesd;
+				TargetAttributes = {
+					C3328F8720879A290007B6C9 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					C3328F9E20879A290007B6C9 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C3328F8720879A290007B6C9;
+					};
+					C3328FA920879A290007B6C9 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C3328F8720879A290007B6C9;
+					};
+				};
+			};
+			buildConfigurationList = C3328F8320879A280007B6C9 /* Build configuration list for PBXProject "RACLearning" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C3328F7F20879A280007B6C9;
+			productRefGroup = C3328F8920879A290007B6C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C3328F8720879A290007B6C9 /* RACLearning */,
+				C3328F9E20879A290007B6C9 /* RACLearningTests */,
+				C3328FA920879A290007B6C9 /* RACLearningUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C3328F8620879A290007B6C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3328F9920879A290007B6C9 /* LaunchScreen.storyboard in Resources */,
+				C3328F9620879A290007B6C9 /* Assets.xcassets in Resources */,
+				C3328F9120879A290007B6C9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3328F9D20879A290007B6C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3328FA820879A290007B6C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3F0F3D0F4B82A279D28704E2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RACLearning-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D4243B0D09BC38A02C79A6A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RACLearning/Pods-RACLearning-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ReactiveCocoa/ReactiveCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveSwift/ReactiveSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RACLearning/Pods-RACLearning-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		50FD3501F577554A5BB12C7D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RACLearningUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F6D3117C61F261195BA345C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RACLearningUITests/Pods-RACLearningUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A22FA6518FFDD170966DCF9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RACLearningTests/Pods-RACLearningTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8FF676626164B0A57BED4316 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RACLearningUITests/Pods-RACLearningUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		922494900FA7AE9C82DAD455 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RACLearningTests/Pods-RACLearningTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B442AE9FE27780C2311D2F83 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RACLearningTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E176809EEAA7A146691C8AAC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RACLearning/Pods-RACLearning-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C3328F8420879A290007B6C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3328F8E20879A290007B6C9 /* ViewController.swift in Sources */,
+				C3328F8C20879A290007B6C9 /* AppDelegate.swift in Sources */,
+				C3328F9420879A290007B6C9 /* RACLearning.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3328F9B20879A290007B6C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3328FA420879A290007B6C9 /* RACLearningTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3328FA620879A290007B6C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3328FAF20879A290007B6C9 /* RACLearningUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C3328FA120879A290007B6C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3328F8720879A290007B6C9 /* RACLearning */;
+			targetProxy = C3328FA020879A290007B6C9 /* PBXContainerItemProxy */;
+		};
+		C3328FAC20879A290007B6C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3328F8720879A290007B6C9 /* RACLearning */;
+			targetProxy = C3328FAB20879A290007B6C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C3328F8F20879A290007B6C9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3328F9020879A290007B6C9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C3328F9720879A290007B6C9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3328F9820879A290007B6C9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C3328FB120879A290007B6C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C3328FB220879A290007B6C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C3328FB420879A290007B6C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13752D6CF21F3B4C1A907EBE /* Pods-RACLearning.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G97DW7Z2A4;
+				INFOPLIST_FILE = RACLearning/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.farteen.mqtt.RACLearning;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C3328FB520879A290007B6C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFD4E1AC4585D897914F3BB4 /* Pods-RACLearning.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G97DW7Z2A4;
+				INFOPLIST_FILE = RACLearning/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.farteen.mqtt.RACLearning;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C3328FB720879A290007B6C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDC07EB0F24A6D5874BB305E /* Pods-RACLearningTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G97DW7Z2A4;
+				INFOPLIST_FILE = RACLearningTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.farteen.mqtt.RACLearningTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RACLearning.app/RACLearning";
+			};
+			name = Debug;
+		};
+		C3328FB820879A290007B6C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2C4F72DA0021685CA3C81CB /* Pods-RACLearningTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G97DW7Z2A4;
+				INFOPLIST_FILE = RACLearningTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.farteen.mqtt.RACLearningTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RACLearning.app/RACLearning";
+			};
+			name = Release;
+		};
+		C3328FBA20879A290007B6C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 347030D97D1CC8F5BBEE5955 /* Pods-RACLearningUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G97DW7Z2A4;
+				INFOPLIST_FILE = RACLearningUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.farteen.mqtt.RACLearningUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RACLearning;
+			};
+			name = Debug;
+		};
+		C3328FBB20879A290007B6C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0368E6FB6A552FF8C603847A /* Pods-RACLearningUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G97DW7Z2A4;
+				INFOPLIST_FILE = RACLearningUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.farteen.mqtt.RACLearningUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RACLearning;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C3328F8320879A280007B6C9 /* Build configuration list for PBXProject "RACLearning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3328FB120879A290007B6C9 /* Debug */,
+				C3328FB220879A290007B6C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3328FB320879A290007B6C9 /* Build configuration list for PBXNativeTarget "RACLearning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3328FB420879A290007B6C9 /* Debug */,
+				C3328FB520879A290007B6C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3328FB620879A290007B6C9 /* Build configuration list for PBXNativeTarget "RACLearningTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3328FB720879A290007B6C9 /* Debug */,
+				C3328FB820879A290007B6C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3328FB920879A290007B6C9 /* Build configuration list for PBXNativeTarget "RACLearningUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3328FBA20879A290007B6C9 /* Debug */,
+				C3328FBB20879A290007B6C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C3328F9220879A290007B6C9 /* RACLearning.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C3328F9320879A290007B6C9 /* RACLearning.xcdatamodel */,
+			);
+			currentVersion = C3328F9320879A290007B6C9 /* RACLearning.xcdatamodel */;
+			path = RACLearning.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C3328F8020879A280007B6C9 /* Project object */;
+}
